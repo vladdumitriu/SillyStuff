@@ -1,0 +1,34 @@
+package main;
+
+public class Order {
+	String address;
+<<<<<<< .mine
+	private int phoneNumber;
+	private int total;
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public int getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public int total() {
+		return total;
+	}
+
+=======
+	int phoneNumber;
+	int totals;
+	
+>>>>>>> .r11
+}

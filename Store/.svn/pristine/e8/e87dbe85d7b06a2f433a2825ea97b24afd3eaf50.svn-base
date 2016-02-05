@@ -1,0 +1,7 @@
+package main;
+
+public class Product {
+	private String productNamed;
+	private int price;
+	private int stockQty;
+}
