@@ -1,15 +1,15 @@
 package main;
 
 public class ShoppingCart {
-	private int cont = 0;
-	private Product [] productList = new Product[cont];
+	private int index = 0;
+	private Product [] productList = new Product[index];
 	
 	public void addProduct(Product product){
-		cont++;
-		productList[cont]=product;
+		index++;
+		productList[index]=product;
 	}
 	public void removeProduct(Product product){
-		cont--;
+		index--;
 	}
 //	public Product showList(){
 //		for(int i=0;i<=cont;i++){
